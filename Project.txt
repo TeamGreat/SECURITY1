@@ -1,0 +1,23 @@
+aba-security-oracle/
+├── frontend/
+│   └── app.py                  # Streamlit UI
+├── brain/
+│   └── gpt_oss_brain.py        # GPT-OSS + MCP calls
+├── mcp/
+│   └── server.py               # MCP tools (web, weather, X)
+├── engine/
+│   ├── __init__.py
+│   ├── clustering.py
+│   ├── gaps.py
+│   ├── routes.py
+│   └── simulator.py            # Season/event logic
+├── data/
+│   ├── incidents.csv
+│   ├── police.csv
+│   ├── aba_roads.graphml
+│   └── aba_pois.geojson
+├── maps/
+│   └── report.html
+├── reports/
+│   └── latest.pdf
+└── requirements.txt
